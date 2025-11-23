@@ -15,11 +15,11 @@ void calc_dist_c(long long n, double *x1, double *x2, double *y1, double *y2, do
 
 int main() {
     //Input data
-    long long n = 3;
-    double x1[] = {1.0, 2.5, 0.0};
-    double x2[] = {4.0, 5.5, 0.0};
-    double y1[] = {1.0, 1.0, 0.0};
-    double y2[] = {5.0, 5.0, 10.0};
+    long long n = 4;
+    double x1[] = {1.5, 4.0, 3.5, 2.0};
+    double x2[] = {3.0, 2.5, 2.5, 1.0};
+    double y1[] = {4.0, 3.0, 3.5, 3.0};
+    double y2[] = {2.0, 2.5, 1.0, 1.5};
 
     //Z
     double z[n];
