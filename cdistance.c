@@ -3,9 +3,9 @@
 #include <time.h>
 #include <math.h>
 
-extern void asmdistance(int n, double *x1, double *x2, double *y1, double *y2, double *z);
+extern void asmdistance(long long n, double *x1, double *x2, double *y1, double *y2, double *z);
 
-void calc_dist_c(int n, double *x1, double *x2, double *y1, double *y2, double *z) {
+void calc_dist_c(long long n, double *x1, double *x2, double *y1, double *y2, double *z) {
     for (int i = 0; i < n; i++) {
         double dx = x2[i] - x1[i];
         double dy = y2[i] - y1[i];
@@ -15,7 +15,7 @@ void calc_dist_c(int n, double *x1, double *x2, double *y1, double *y2, double *
 
 int main() {
     //Input data
-    int n = 3;
+    long long n = 3;
     double x1[] = {1.0, 2.5, 0.0};
     double x2[] = {4.0, 5.5, 0.0};
     double y1[] = {1.0, 1.0, 0.0};
