@@ -1,5 +1,6 @@
 # x86-to-C_LBYARCH
 x86-to-C interface programming project for LBYARCH
+by Wilhelm Lee S17B
 
 ## Testing Details
 ### N = 2^20
@@ -22,5 +23,6 @@ The assembly (ASM) implementation is approximately $24.7292$ seconds faster (nea
 
 
 
-## Sample Testing with Speed and Correctness Verification
-<img width="776" height="743" alt="image" src="https://github.com/user-attachments/assets/be643195-9efa-4152-8c34-5db17b2569f5" />
+## Sample Time/Program Speed and Correctness Verification
+<img width="994" height="1002" alt="image" src="https://github.com/user-attachments/assets/67140e2d-0aef-4dca-b2ea-73d1998f00d5" />
+
