@@ -1,3 +1,4 @@
+//WILHELM LEE S17B
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -33,6 +34,27 @@ int main() {
         y1[i] = (double)(rand() % 100);
         y2[i] = (double)(rand() % 100);
     }
+
+    printf("First 10 x1 values: \n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", x1[i]);
+    }
+    printf("\n");
+    printf("First 10 x2 values: \n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", x2[i]);
+    }
+    printf("\n");
+    printf("First 10 y1 values: \n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", y1[i]);
+    }
+    printf("\n");
+    printf("First 10 y2 values: \n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", y2[i]);
+    }
+    printf("\n");
 
     clock_t start, end;
     double cpu_time_used;
