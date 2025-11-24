@@ -2,6 +2,10 @@
 x86-to-C interface programming project for LBYARCH
 by Wilhelm Lee S17B
 
+## How to Run
+1. Open Terminal in the folder
+2. Type "run.bat" to run the Windows Batch File
+
 ## Testing Details
 ### N = 2^20
 ASM Average: $0.0051$ seconds
